@@ -4,8 +4,7 @@
 # %% [markdown]
 # In this blog post, I'll show you how you can export your MLFlow data to a SQLite database so you can easily filter, search and aggregate all your Machine Learning experiments with SQL.
 #
-# TODO: add link to notebook version of this post
-# TODO: add link to download sample data
+# *Note:* You can get this post in notebook format from [here.](https://github.com/ploomber/mlflow2sql/blob/main/post/post.ipynb)
 #
 # ## The problem with MLFlow
 #
