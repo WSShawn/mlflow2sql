@@ -16,6 +16,7 @@ with open("src/mlflow2sql/__init__.py", "rb") as f:
 REQUIRES = ["pyyaml"]
 
 DEV = [
+    "pkgmt",
     "pytest",
     "flake8",
     "invoke",
