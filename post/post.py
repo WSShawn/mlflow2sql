@@ -38,7 +38,7 @@
 # %pip install "mlflow2sql[demo]" --quiet
 
 # %% [markdown]
-# To generate some sample MLFlow data, run the following in a Python session (this will create the data in the `./mlflow-data` directory), this will take a few minutes:
+# You can download some sample MLFlow data from [here.](https://github.com/ploomber/mlflow2sql/raw/main/post/mlflow-data.zip) Alternatively, you can generate it by running the following in a Python session (this will create the data in the `./mlflow-data` directory):
 
 # %%
 import shutil
@@ -51,7 +51,7 @@ path = Path("mlflow-data")
 if path.exists():
     shutil.rmtree(path)    
 
-# generate sample data
+# generate sample data - takes a few minutes
 with generate.start_mlflow(backend_store_uri="mlflow-data",
                            default_artifact_root="mlflow-data"):
     ml.run_default()
